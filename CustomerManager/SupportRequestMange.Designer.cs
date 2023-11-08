@@ -28,140 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            lblSupportResquetMange = new Label();
-            btnFix = new Button();
-            btnRemove = new Button();
-            lblFix = new Label();
-            dataGridView2 = new DataGridView();
-            lblRequesInfo = new Label();
-            lblRequestStatus = new Label();
-            textBox1 = new TextBox();
-            btnCancel = new Button();
-            btnUpdate = new Button();
+            dgvInforRequest = new DataGridView();
             colCusName = new DataGridViewTextBoxColumn();
             colCusPhone = new DataGridViewTextBoxColumn();
             colCusMail = new DataGridViewTextBoxColumn();
             colCusRequest = new DataGridViewTextBoxColumn();
             colStatus = new DataGridViewTextBoxColumn();
             colTime = new DataGridViewTextBoxColumn();
+            lblSupportResquetMange = new Label();
+            btnFix = new Button();
+            btnRemove = new Button();
+            lblFix = new Label();
+            dgvFixRequest = new DataGridView();
             colFixName = new DataGridViewTextBoxColumn();
             colFixPhone = new DataGridViewTextBoxColumn();
             colFixMail = new DataGridViewTextBoxColumn();
             colFixCusReques = new DataGridViewTextBoxColumn();
             colFixStatus = new DataGridViewTextBoxColumn();
             colFixTime = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            lblRequesInfo = new Label();
+            lblRequestStatus = new Label();
+            txtStatusRequest = new TextBox();
+            btnCancel = new Button();
+            btnUpdate = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvInforRequest).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFixRequest).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvInforRequest
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colCusName, colCusPhone, colCusMail, colCusRequest, colStatus, colTime });
-            dataGridView1.Location = new Point(12, 95);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(967, 54);
-            dataGridView1.TabIndex = 0;
-            // 
-            // lblSupportResquetMange
-            // 
-            lblSupportResquetMange.AutoSize = true;
-            lblSupportResquetMange.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            lblSupportResquetMange.Location = new Point(332, 38);
-            lblSupportResquetMange.Name = "lblSupportResquetMange";
-            lblSupportResquetMange.Size = new Size(280, 35);
-            lblSupportResquetMange.TabIndex = 1;
-            lblSupportResquetMange.Text = "Theo dõi yêu cầu hỗ trợ";
-            // 
-            // btnFix
-            // 
-            btnFix.BackColor = Color.LightBlue;
-            btnFix.Location = new Point(827, 166);
-            btnFix.Name = "btnFix";
-            btnFix.Size = new Size(64, 29);
-            btnFix.TabIndex = 2;
-            btnFix.Text = "Sửa";
-            btnFix.UseVisualStyleBackColor = false;
-            // 
-            // btnRemove
-            // 
-            btnRemove.BackColor = Color.LightBlue;
-            btnRemove.Location = new Point(910, 166);
-            btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(69, 29);
-            btnRemove.TabIndex = 3;
-            btnRemove.Text = "Xoá";
-            btnRemove.UseVisualStyleBackColor = false;
-            // 
-            // lblFix
-            // 
-            lblFix.AutoSize = true;
-            lblFix.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            lblFix.Location = new Point(365, 267);
-            lblFix.Name = "lblFix";
-            lblFix.Size = new Size(194, 30);
-            lblFix.TabIndex = 4;
-            lblFix.Text = "Sửa yêu cầu hỗ trợ";
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { colFixName, colFixPhone, colFixMail, colFixCusReques, colFixStatus, colFixTime });
-            dataGridView2.Location = new Point(12, 340);
-            dataGridView2.Margin = new Padding(3, 4, 3, 4);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.RowTemplate.Height = 25;
-            dataGridView2.Size = new Size(967, 50);
-            dataGridView2.TabIndex = 5;
-            // 
-            // lblRequesInfo
-            // 
-            lblRequesInfo.AutoSize = true;
-            lblRequesInfo.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point);
-            lblRequesInfo.Location = new Point(12, 304);
-            lblRequesInfo.Name = "lblRequesInfo";
-            lblRequesInfo.Size = new Size(126, 20);
-            lblRequesInfo.TabIndex = 6;
-            lblRequesInfo.Text = "Thông tin yêu cầu";
-            // 
-            // lblRequestStatus
-            // 
-            lblRequestStatus.AutoSize = true;
-            lblRequestStatus.Location = new Point(12, 420);
-            lblRequestStatus.Name = "lblRequestStatus";
-            lblRequestStatus.Size = new Size(129, 20);
-            lblRequestStatus.TabIndex = 7;
-            lblRequestStatus.Text = "Trạng thái yêu cầu";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(153, 420);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(179, 27);
-            textBox1.TabIndex = 8;
-            // 
-            // btnCancel
-            // 
-            btnCancel.Location = new Point(772, 411);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(94, 29);
-            btnCancel.TabIndex = 9;
-            btnCancel.Text = "Huỷ bỏ";
-            btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // btnUpdate
-            // 
-            btnUpdate.Location = new Point(885, 411);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(94, 29);
-            btnUpdate.TabIndex = 10;
-            btnUpdate.Text = "Cập nhật";
-            btnUpdate.UseVisualStyleBackColor = true;
+            dgvInforRequest.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvInforRequest.Columns.AddRange(new DataGridViewColumn[] { colCusName, colCusPhone, colCusMail, colCusRequest, colStatus, colTime });
+            dgvInforRequest.Location = new Point(12, 95);
+            dgvInforRequest.Margin = new Padding(3, 4, 3, 4);
+            dgvInforRequest.Name = "dgvInforRequest";
+            dgvInforRequest.RowHeadersWidth = 51;
+            dgvInforRequest.RowTemplate.Height = 25;
+            dgvInforRequest.Size = new Size(967, 52);
+            dgvInforRequest.TabIndex = 0;
             // 
             // colCusName
             // 
@@ -210,6 +114,58 @@
             colTime.MinimumWidth = 6;
             colTime.Name = "colTime";
             // 
+            // lblSupportResquetMange
+            // 
+            lblSupportResquetMange.AutoSize = true;
+            lblSupportResquetMange.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            lblSupportResquetMange.Location = new Point(332, 38);
+            lblSupportResquetMange.Name = "lblSupportResquetMange";
+            lblSupportResquetMange.Size = new Size(280, 35);
+            lblSupportResquetMange.TabIndex = 1;
+            lblSupportResquetMange.Text = "Theo dõi yêu cầu hỗ trợ";
+            // 
+            // btnFix
+            // 
+            btnFix.BackColor = Color.LightBlue;
+            btnFix.Location = new Point(827, 166);
+            btnFix.Name = "btnFix";
+            btnFix.Size = new Size(64, 29);
+            btnFix.TabIndex = 2;
+            btnFix.Text = "Sửa";
+            btnFix.UseVisualStyleBackColor = false;
+            // 
+            // btnRemove
+            // 
+            btnRemove.BackColor = Color.LightBlue;
+            btnRemove.Location = new Point(910, 166);
+            btnRemove.Name = "btnRemove";
+            btnRemove.Size = new Size(69, 29);
+            btnRemove.TabIndex = 3;
+            btnRemove.Text = "Xoá";
+            btnRemove.UseVisualStyleBackColor = false;
+            // 
+            // lblFix
+            // 
+            lblFix.AutoSize = true;
+            lblFix.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            lblFix.Location = new Point(365, 267);
+            lblFix.Name = "lblFix";
+            lblFix.Size = new Size(194, 30);
+            lblFix.TabIndex = 4;
+            lblFix.Text = "Sửa yêu cầu hỗ trợ";
+            // 
+            // dgvFixRequest
+            // 
+            dgvFixRequest.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvFixRequest.Columns.AddRange(new DataGridViewColumn[] { colFixName, colFixPhone, colFixMail, colFixCusReques, colFixStatus, colFixTime });
+            dgvFixRequest.Location = new Point(12, 340);
+            dgvFixRequest.Margin = new Padding(3, 4, 3, 4);
+            dgvFixRequest.Name = "dgvFixRequest";
+            dgvFixRequest.RowHeadersWidth = 51;
+            dgvFixRequest.RowTemplate.Height = 25;
+            dgvFixRequest.Size = new Size(967, 50);
+            dgvFixRequest.TabIndex = 5;
+            // 
             // colFixName
             // 
             colFixName.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
@@ -257,42 +213,86 @@
             colFixTime.MinimumWidth = 6;
             colFixTime.Name = "colFixTime";
             // 
+            // lblRequesInfo
+            // 
+            lblRequesInfo.AutoSize = true;
+            lblRequesInfo.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point);
+            lblRequesInfo.Location = new Point(12, 304);
+            lblRequesInfo.Name = "lblRequesInfo";
+            lblRequesInfo.Size = new Size(126, 20);
+            lblRequesInfo.TabIndex = 6;
+            lblRequesInfo.Text = "Thông tin yêu cầu";
+            // 
+            // lblRequestStatus
+            // 
+            lblRequestStatus.AutoSize = true;
+            lblRequestStatus.Location = new Point(12, 411);
+            lblRequestStatus.Name = "lblRequestStatus";
+            lblRequestStatus.Size = new Size(129, 20);
+            lblRequestStatus.TabIndex = 7;
+            lblRequestStatus.Text = "Trạng thái yêu cầu";
+            // 
+            // txtStatusRequest
+            // 
+            txtStatusRequest.Location = new Point(156, 411);
+            txtStatusRequest.Name = "txtStatusRequest";
+            txtStatusRequest.Size = new Size(179, 27);
+            txtStatusRequest.TabIndex = 8;
+            // 
+            // btnCancel
+            // 
+            btnCancel.Location = new Point(772, 411);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(94, 29);
+            btnCancel.TabIndex = 9;
+            btnCancel.Text = "Huỷ bỏ";
+            btnCancel.UseVisualStyleBackColor = true;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Location = new Point(885, 411);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(94, 29);
+            btnUpdate.TabIndex = 10;
+            btnUpdate.Text = "Cập nhật";
+            btnUpdate.UseVisualStyleBackColor = true;
+            // 
             // SupportRequestMange
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(986, 600);
+            ClientSize = new Size(986, 526);
             Controls.Add(btnUpdate);
             Controls.Add(btnCancel);
-            Controls.Add(textBox1);
+            Controls.Add(txtStatusRequest);
             Controls.Add(lblRequestStatus);
             Controls.Add(lblRequesInfo);
-            Controls.Add(dataGridView2);
+            Controls.Add(dgvFixRequest);
             Controls.Add(lblFix);
             Controls.Add(btnRemove);
             Controls.Add(btnFix);
             Controls.Add(lblSupportResquetMange);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvInforRequest);
             Margin = new Padding(3, 4, 3, 4);
             Name = "SupportRequestMange";
             Text = "SupportRequestMange";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvInforRequest).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFixRequest).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvInforRequest;
         private Label lblSupportResquetMange;
         private Button btnFix;
         private Button btnRemove;
         private Label lblFix;
-        private DataGridView dataGridView2;
+        private DataGridView dgvFixRequest;
         private Label lblRequesInfo;
         private Label lblRequestStatus;
-        private TextBox textBox1;
+        private TextBox txtStatusRequest;
         private Button btnCancel;
         private Button btnUpdate;
         private DataGridViewTextBoxColumn colCusName;
