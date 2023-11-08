@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CustomerManager"
+    ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\CustomerManager\\SupportRequestMange.Designer.cs",
+=======
+  "SelectedNode": "\\ThucTapCSNganh.sln",
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a
   "PreviewInSolutionExplorer": false
 }
