@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuyKhoi\\CS\\20BTFormCopy\\CustomerManager\\CustomerManager.csproj": {}
+    "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj": {}
   },
   "projects": {
-    "D:\\HuyKhoi\\CS\\20BTFormCopy\\CustomerManager\\CustomerManager.csproj": {
+    "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuyKhoi\\CS\\20BTFormCopy\\CustomerManager\\CustomerManager.csproj",
+        "projectUniqueName": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
         "projectName": "CustomerManager",
-        "projectPath": "D:\\HuyKhoi\\CS\\20BTFormCopy\\CustomerManager\\CustomerManager.csproj",
-        "packagesPath": "C:\\Users\\khoit\\.nuget\\packages\\",
-        "outputPath": "D:\\HuyKhoi\\CS\\20BTFormCopy\\CustomerManager\\obj\\",
+        "projectPath": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khoit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
