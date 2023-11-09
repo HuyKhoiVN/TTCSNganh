@@ -16,5 +16,6 @@ namespace CustomerManager
         {
             InitializeComponent();
         }
+
     }
 }

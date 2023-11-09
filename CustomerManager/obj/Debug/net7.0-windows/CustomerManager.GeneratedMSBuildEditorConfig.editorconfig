@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomerManager
+<<<<<<< HEAD
 build_property.ProjectDir = C:\ttcsn\TTCSNganh\CustomerManager\
+=======
+build_property.ProjectDir = D:\Dotnet_workspace\TTCSNganh\TTCSNganh\CustomerManager\
+>>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48

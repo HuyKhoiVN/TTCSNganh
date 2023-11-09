@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomerManager
-build_property.ProjectDir = D:\HuyKhoi\CS\20BTFormCopy\CustomerManager\
+<<<<<<< HEAD
+build_property.ProjectDir = D:\Dotnet_workspace\TTCSNganh\TTCSNganh\CustomerManager\
+=======
+build_property.ProjectDir = C:\Users\TUNG TAM\Documents\Visual Studio 2022\imnesey\CustomerManager\
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a

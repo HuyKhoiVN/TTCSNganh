@@ -8,19 +8,56 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\my pc\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\TUNG TAM\\.nuget\\packages\\": {}
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a
+>>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\ttcsn\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
       "projectName": "CustomerManager",
       "projectPath": "C:\\ttcsn\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
       "packagesPath": "C:\\Users\\my pc\\.nuget\\packages\\",
       "outputPath": "C:\\ttcsn\\TTCSNganh\\CustomerManager\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
+      "projectName": "CustomerManager",
+      "projectPath": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\CustomerManager.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\Dotnet_workspace\\TTCSNganh\\TTCSNganh\\CustomerManager\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\TUNG TAM\\Documents\\Visual Studio 2022\\imnesey\\CustomerManager\\CustomerManager.csproj",
+      "projectName": "CustomerManager",
+      "projectPath": "C:\\Users\\TUNG TAM\\Documents\\Visual Studio 2022\\imnesey\\CustomerManager\\CustomerManager.csproj",
+      "packagesPath": "C:\\Users\\TUNG TAM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TUNG TAM\\Documents\\Visual Studio 2022\\imnesey\\CustomerManager\\obj\\",
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a
+>>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\my pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\TUNG TAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a
+>>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +101,15 @@
             "privateAssets": "none"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+=======
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+>>>>>>> 0f1bbde73d00d65d23575747e4cdd2fe1ed1b89a
+>>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
       }
     }
   }
