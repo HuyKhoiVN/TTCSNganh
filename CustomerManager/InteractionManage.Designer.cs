@@ -302,27 +302,9 @@
             colEmail_PhoneNumber.HeaderText = "Email/Số điện thoại";
             colEmail_PhoneNumber.MinimumWidth = 6;
             colEmail_PhoneNumber.Name = "colEmail_PhoneNumber";
-            // 
-            // textBox1
-            // 
-<<<<<<< HEAD
-            textBox1.Location = new Point(202, 133);
-=======
-            textBox1.Location = new Point(569, 535);
->>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(541, 27);
-            textBox1.TabIndex = 21;
-            textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // btnCreateCallDetail
-            // 
-<<<<<<< HEAD
-            textBox2.Location = new Point(234, 212);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
-=======
+          
+         
+
             btnCreateCallDetail.Location = new Point(569, 577);
             btnCreateCallDetail.Name = "btnCreateCallDetail";
             btnCreateCallDetail.Size = new Size(94, 27);
@@ -330,23 +312,18 @@
             btnCreateCallDetail.Text = "Tạo";
             btnCreateCallDetail.UseVisualStyleBackColor = true;
             btnCreateCallDetail.Click += button1_Click_1;
->>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
+
             // 
             // btnDelete
             // 
-<<<<<<< HEAD
-            textBox3.Location = new Point(296, 307);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 3;
-=======
+
             btnDelete.Location = new Point(680, 575);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(94, 29);
             btnDelete.TabIndex = 23;
             btnDelete.Text = "Xoá";
             btnDelete.UseVisualStyleBackColor = true;
->>>>>>> e53c2c0cb04f2bef493b2d6cd8f2f4bd0895bc48
+
             // 
             // InteractionManage
             // 
